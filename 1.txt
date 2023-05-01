@@ -1,2 +1,6 @@
-npx create-next-app -e with-tailwindcss my-project
-cd my-project
+https://tailwindcss.com/docs/guides/nextjs
+npx create-next-app@latest brightdata-amazon-scraper-yt --typescript --eslint
+cd brightdata-amazon-scraper-yt
+npm i next
+в корневом каталоге создаем папку app, в папке - файл page.tsx
+
