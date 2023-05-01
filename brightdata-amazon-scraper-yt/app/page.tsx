@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { DocumentMagnifyingGlassIcon } from '@heroicons/react/24/outline'
+
 
 function HomePage() {
   return (
-      <div>HomePage</div>
+      <div>
+            <div>
+                <DocumentMagnifyingGlassIcon className="h-64 w-64" />
+            </div>
+        </div>
   )
 }
 

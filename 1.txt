@@ -3,4 +3,16 @@ npx create-next-app@latest brightdata-amazon-scraper-yt --typescript --eslint
 cd brightdata-amazon-scraper-yt
 npm i next
 в корневом каталоге создаем папку app, в папке - файл page.tsx
+в файле next.config.js добавляем:
+	/** @type {import('next').NextConfig} */
+	const nextConfig = {
+	  reactStrictMode: true,
+	  experimental:{
+	    appDir: true,
+	  }
+	}
+	
+	module.exports = nextConfig
 
+в созданный системой файл layout.tsx добавим import '@/styles/globals.css'
+открываем второй терминал и устанавливаем иконки yarn add @heroicons/react
