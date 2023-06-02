@@ -2,8 +2,8 @@ https://tailwindcss.com/docs/guides/nextjs
 npx create-next-app@latest brightdata-amazon-scraper-yt --typescript --eslint
 cd brightdata-amazon-scraper-yt
 npm i next
-в корневом каталоге создаем папку app, в папке - файл page.tsx
-в файле next.config.js добавляем:
+Гў ГЄГ®Г°Г­ГҐГўГ®Г¬ ГЄГ ГІГ Г«Г®ГЈГҐ Г±Г®Г§Г¤Г ГҐГ¬ ГЇГ ГЇГЄГі app, Гў ГЇГ ГЇГЄГҐ - ГґГ Г©Г« page.tsx
+Гў ГґГ Г©Г«ГҐ next.config.js Г¤Г®ГЎГ ГўГ«ГїГҐГ¬:
 	/** @type {import('next').NextConfig} */
 	const nextConfig = {
 	  reactStrictMode: true,
@@ -14,5 +14,5 @@ npm i next
 	
 	module.exports = nextConfig
 
-в созданный системой файл layout.tsx добавим import '@/styles/globals.css'
-открываем второй терминал и устанавливаем иконки yarn add @heroicons/react
+РІ СЃРѕР·РґР°РЅРЅС‹Р№ СЃРёСЃС‚РµРјРѕР№ С„Р°Р№Р» layout.tsx РґРѕР±Р°РІРёРј import '@/styles/globals.css'
+РѕС‚РєСЂС‹РІР°РµРј РІС‚РѕСЂРѕР№ С‚РµСЂРјРёРЅР°Р» Рё СѓСЃС‚Р°РЅР°РІР»РёРІР°РµРј РёРєРѕРЅРєРё yarn add @heroicons/react
